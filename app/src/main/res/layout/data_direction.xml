@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_calle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/calle" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_calle_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero" />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_numero_exterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_calle_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/numeroExterior" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_numero_exterior_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_calle_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:inputType="numberDecimal"
+
+        />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_numero_interior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_numero_exterior_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/numeroInterior" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_numero_interior_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_numero_exterior_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:inputType="numberDecimal"
+
+        />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_municipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_numero_interior_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/municipio" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_municipio_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_numero_interior_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+        />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_localidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_municipio_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/localidad" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_localidad_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_municipio_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+        />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_localidad_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/codigoPostal"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_cp_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_localidad_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+
+        android:inputType="numberDecimal"
+
+        />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_colonia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_cp_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/colonia" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_colonia_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_cp_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+        />
+
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_otra_colonia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_colonia_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/otraColonia" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_otra_colonia_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_colonia_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_calle"
+        android:text="@string/cero"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+        />
+
+</RelativeLayout>

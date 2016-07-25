@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_costo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/costoUnitario" />
+
+    <TextView
+        android:id="@+id/antecedentes_costo_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_costo"
+        android:text="@string/costo1" />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_costo"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/cantidad" />
+
+    <EditText
+        android:id="@+id/antecedentes_cantidad_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_costo"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_costo"
+        android:text="@string/cantidad1"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+
+
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_importe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_cantidad"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/importeTotal" />
+
+    <TextView
+        android:id="@+id/antecedentes_importe_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_cantidad"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_costo"
+        android:text="@string/importetotal1" />
+
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_tipo_persona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_importe"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/TipoPersona" />
+
+    <Spinner
+        android:id="@+id/antecedentes_tipo_persona_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_importe"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_costo"
+
+        />
+
+</RelativeLayout>

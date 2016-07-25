@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/Nombre" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_nombre_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_nombre"
+        android:inputType="textPersonName"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        />
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_apellido_paterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_nombre"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/apellidoPaterno" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_apellido_paterno_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_nombre_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_nombre"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:text="@string/cero" />
+    <!-- *********************************************  -->
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/antecedentes_curp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_apellido_paterno_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/apellidoMaterno" />
+
+    <AutoCompleteTextView
+        android:id="@+id/antecedentes_curp_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/antecedentes_apellido_paterno_lbl"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toRightOf="@id/antecedentes_nombre"
+        android:text="@string/cero"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
+        />
+
+</RelativeLayout>
