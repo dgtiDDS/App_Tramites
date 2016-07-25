@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PrototipoPagosSFA</string>
-    <string name="costoUnitario">Costo\nUnitario</string>
+    <string name="costoUnitario">Costo Unitario</string>
     <string name="cantidad">Cantidad : </string>
     <string name="importeTotal">Importe\nTotal : </string>
     <string name="TipoPersona">Tipo\nPersona: </string>
@@ -19,239 +19,244 @@
     <string name="otraColonia">Otra\nColonia : </string>
     <string name="cero"></string>
 
+    <string name="textExample">texto de ejemplo</string>
+
+    <string name="aceptar">ACEPTAR</string>
+    <string name="cancelar">CANCELAR</string>
 
     <string name="costo1">$250.00</string>
     <string name="cantidad1">1</string>
     <string name="importetotal1">1</string>
     <string name="ejemplo">Texto de ejemplo</string>
 
+    <string name="campo_obligatorio">Campo obligatorio</string>
 
 
     <string-array name="tipoPersona">
         <item>Fisica</item>
         <item>Moral</item>
     </string-array>
-<string-array name="localidades_array">
+    <string-array name="localidades_array">
 
-    <item>Acajete</item>
-    <item>Acateno</item>
-    <item>Acatlán</item>
-    <item>Acatzingo</item>
-    <item>Acteopan</item>
-    <item>Ahuacatlán</item>
-    <item>Ahuatlán</item>
-    <item>Ahuazotepec</item>
-    <item>Ahuehuetitla</item>
-    <item>Ajalpan</item>
-    <item>Albino Zertuche</item>
-    <item>Aljojuca</item>
-    <item>Altepexi</item>
-    <item>Amixtlán</item>
-    <item>Amozoc</item>
-    <item>Aquixtla</item>
-    <item>Atempan</item>
-    <item>Atexcal</item>
-    <item>Atlequizayan</item>
-    <item>Atlixco</item>
-    <item>Atoyatempan</item>
-    <item>Atzala</item>
-    <item>Atzitzihuacán</item>
-    <item>Atzitzintla</item>
-    <item>Axutla</item>
-    <item>Ayotoxco de Guerrero</item>
-    <item>Cañada Morelos</item>
-    <item>Calpan</item>
-    <item>Caltepec</item>
-    <item>Camocuautla</item>
-    <item>Caxhuacan</item>
-    <item>Chalchicomula de Sesma</item>
-    <item>Chapulco</item>
-    <item>Chiautla</item>
-    <item>Chiautzingo</item>
-    <item>Chichiquila</item>
-    <item>Chiconcuautla</item>
-    <item>Chietla</item>
-    <item>Chigmecatitlán</item>
-    <item>Chignahuapan</item>
-    <item>Chignautla</item>
-    <item>Chila</item>
-    <item>Chila de la Sal</item>
-    <item>Chilchotla</item>
-    <item>Chinantla</item>
-    <item>Coatepec</item>
-    <item>Coatzingo</item>
-    <item>Cohetzala</item>
-    <item>Cohuecan</item>
-    <item>Coronango</item>
-    <item>Coxcatlán</item>
-    <item>Coyomeapan</item>
-    <item>Coyotepec</item>
-    <item>Cuapiaxtla de Madero</item>
-    <item>Cuautempan</item>
-    <item>Cuautinchán</item>
-    <item>Cuautlancingo</item>
-    <item>Cuayuca de Andrade</item>
-    <item>Cuetzalan del Progreso</item>
-    <item>Cuyoaco</item>
-    <item>Domingo Arenas</item>
-    <item>Eloxochitlán</item>
-    <item>Epatlán</item>
-    <item>Esperanza</item>
-    <item>Francisco Z. Mena</item>
-    <item>General Felipe Ángeles</item>
-    <item>Guadalupe</item>
-    <item>Guadalupe Victoria</item>
-    <item>Hermenegildo Galeana</item>
-    <item>Honey</item>
-    <item>Huaquechula</item>
-    <item>Huatlatlauca</item>
-    <item>Huauchinango</item>
-    <item>Huehuetla</item>
-    <item>Huehuetlán el Chico</item>
-    <item>Huehuetlán el Grande</item>
-    <item>Huejotzingo</item>
-    <item>Hueyapan</item>
-    <item>Hueytamalco</item>
-    <item>Hueytlalpan</item>
-    <item>Huitzilan de Serdán</item>
-    <item>Huitziltepec</item>
-    <item>Ixcamilpa de Guerrero</item>
-    <item>Ixcaquixtla</item>
-    <item>Ixtacamaxtitlán</item>
-    <item>Ixtepec</item>
-    <item>Izúcar de Matamoros</item>
-    <item>Jalpan</item>
-    <item>Jolalpan</item>
-    <item>Jonotla</item>
-    <item>Jopala</item>
-    <item>Juan C. Bonilla</item>
-    <item>Juan Galindo</item>
-    <item>Juan N. Méndez</item>
-    <item>La Magdalena Tlatlauquitepec</item>
-    <item>Lafragua</item>
-    <item>Libres</item>
-    <item>Los Reyes de Juárez</item>
-    <item>Mazapiltepec de Juárez</item>
-    <item>Mixtla</item>
-    <item>Molcaxac</item>
-    <item>Naupan</item>
-    <item>Nauzontla</item>
-    <item>Nealtican</item>
-    <item>Nicolás Bravo</item>
-    <item>Nopalucan</item>
-    <item>Ocotepec</item>
-    <item>Ocoyucan</item>
-    <item>Olintla</item>
-    <item>Oriental</item>
-    <item>Pahuatlán</item>
-    <item>Palmar de Bravo</item>
-    <item>Pantepec</item>
-    <item>Petlalcingo</item>
-    <item>Piaxtla</item>
-    <item>Puebla</item>
-    <item>Quecholac</item>
-    <item>Quimixtlán</item>
-    <item>Rafael Lara Grajales</item>
-    <item>San Andrés Cholula</item>
-    <item>San Antonio Cañada</item>
-    <item>San Diego la Mesa Tochimiltzingo</item>
-    <item>San Felipe Teotlalcingo</item>
-    <item>San Felipe Tepatlán</item>
-    <item>San Gabriel Chilac</item>
-    <item>San Gregorio Atzompa</item>
-    <item>San Jerónimo Tecuanipan</item>
-    <item>San Jerónimo Xayacatlán</item>
-    <item>San José Chiapa</item>
-    <item>San José Miahuatlán</item>
-    <item>San Juan Atenco</item>
-    <item>San Juan Atzompa</item>
-    <item>San Martín Texmelucan</item>
-    <item>San Martín Totoltepec</item>
-    <item>San Matías Tlalancaleca</item>
-    <item>San Miguel Ixitlán</item>
-    <item>San Miguel Xoxtla</item>
-    <item>San Nicolás Buenos Aires</item>
-    <item>San Nicolás de los Ranchos</item>
-    <item>San Pablo Anicano</item>
-    <item>San Pedro Cholula</item>
-    <item>San Pedro Yeloixtlahuaca</item>
-    <item>San Salvador el Seco</item>
-    <item>San Salvador el Verde</item>
-    <item>San Salvador Huixcolotla</item>
-    <item>San Sebastián Tlacotepec</item>
-    <item>Santa Catarina Tlaltempan</item>
-    <item>Santa Inés Ahuatempan</item>
-    <item>Santa Isabel Cholula</item>
-    <item>Santiago Miahuatlán</item>
-    <item>Santo Tomás Hueyotlipan</item>
-    <item>Soltepec</item>
-    <item>Tecali de Herrera</item>
-    <item>Tecamachalco</item>
-    <item>Tecomatlán</item>
-    <item>Tehuacán</item>
-    <item>Tehuitzingo</item>
-    <item>Tenampulco</item>
-    <item>Teopantlán</item>
-    <item>Teotlalco</item>
-    <item>Tepanco de López</item>
-    <item>Tepango de Rodríguez</item>
-    <item>Tepatlaxco de Hidalgo</item>
-    <item>Tepeaca</item>
-    <item>Tepemaxalco</item>
-    <item>Tepeojuma</item>
-    <item>Tepetzintla</item>
-    <item>Tepexco</item>
-    <item>Tepexi de Rodríguez</item>
-    <item>Tepeyahualco</item>
-    <item>Tepeyahualco de Cuauhtémoc</item>
-    <item>Tetela de Ocampo</item>
-    <item>Teteles de Avila Castillo</item>
-    <item>Teziutlán</item>
-    <item>Tianguismanalco</item>
-    <item>Tilapa</item>
-    <item>Tlachichuca</item>
-    <item>Tlacotepec de Benito Juárez</item>
-    <item>Tlacuilotepec</item>
-    <item>Tlahuapan</item>
-    <item>Tlaltenango</item>
-    <item>Tlanepantla</item>
-    <item>Tlaola</item>
-    <item>Tlapacoya</item>
-    <item>Tlapanalá</item>
-    <item>Tlatlauquitepec</item>
-    <item>Tlaxco</item>
-    <item>Tochimilco</item>
-    <item>Tochtepec</item>
-    <item>Totoltepec de Guerrero</item>
-    <item>Tulcingo</item>
-    <item>Tuzamapan de Galeana</item>
-    <item>Tzicatlacoyan</item>
-    <item>Venustiano Carranza</item>
-    <item>Vicente Guerrero</item>
-    <item>Xayacatlán de Bravo</item>
-    <item>Xicotepec</item>
-    <item>Xicotlán</item>
-    <item>Xiutetelco</item>
-    <item>Xochiapulco</item>
-    <item>Xochiltepec</item>
-    <item>Xochitlán de Vicente Suárez</item>
-    <item>Xochitlán Todos Santos</item>
-    <item>Yaonáhuac</item>
-    <item>Yehualtepec</item>
-    <item>Zacapala</item>
-    <item>Zacapoaxtla</item>
-    <item>Zacatlán</item>
-    <item>Zapotitlán</item>
-    <item>Zapotitlán de Méndez</item>
-    <item>Zaragoza</item>
-    <item>Zautla</item>
-    <item>Zihuateutla</item>
-    <item>Zinacatepec</item>
-    <item>Zongozotla</item>
-    <item>Zoquiapan</item>
-    <item>Zoquitlán</item>
+        <item>Acajete</item>
+        <item>Acateno</item>
+        <item>Acatlán</item>
+        <item>Acatzingo</item>
+        <item>Acteopan</item>
+        <item>Ahuacatlán</item>
+        <item>Ahuatlán</item>
+        <item>Ahuazotepec</item>
+        <item>Ahuehuetitla</item>
+        <item>Ajalpan</item>
+        <item>Albino Zertuche</item>
+        <item>Aljojuca</item>
+        <item>Altepexi</item>
+        <item>Amixtlán</item>
+        <item>Amozoc</item>
+        <item>Aquixtla</item>
+        <item>Atempan</item>
+        <item>Atexcal</item>
+        <item>Atlequizayan</item>
+        <item>Atlixco</item>
+        <item>Atoyatempan</item>
+        <item>Atzala</item>
+        <item>Atzitzihuacán</item>
+        <item>Atzitzintla</item>
+        <item>Axutla</item>
+        <item>Ayotoxco de Guerrero</item>
+        <item>Cañada Morelos</item>
+        <item>Calpan</item>
+        <item>Caltepec</item>
+        <item>Camocuautla</item>
+        <item>Caxhuacan</item>
+        <item>Chalchicomula de Sesma</item>
+        <item>Chapulco</item>
+        <item>Chiautla</item>
+        <item>Chiautzingo</item>
+        <item>Chichiquila</item>
+        <item>Chiconcuautla</item>
+        <item>Chietla</item>
+        <item>Chigmecatitlán</item>
+        <item>Chignahuapan</item>
+        <item>Chignautla</item>
+        <item>Chila</item>
+        <item>Chila de la Sal</item>
+        <item>Chilchotla</item>
+        <item>Chinantla</item>
+        <item>Coatepec</item>
+        <item>Coatzingo</item>
+        <item>Cohetzala</item>
+        <item>Cohuecan</item>
+        <item>Coronango</item>
+        <item>Coxcatlán</item>
+        <item>Coyomeapan</item>
+        <item>Coyotepec</item>
+        <item>Cuapiaxtla de Madero</item>
+        <item>Cuautempan</item>
+        <item>Cuautinchán</item>
+        <item>Cuautlancingo</item>
+        <item>Cuayuca de Andrade</item>
+        <item>Cuetzalan del Progreso</item>
+        <item>Cuyoaco</item>
+        <item>Domingo Arenas</item>
+        <item>Eloxochitlán</item>
+        <item>Epatlán</item>
+        <item>Esperanza</item>
+        <item>Francisco Z. Mena</item>
+        <item>General Felipe Ángeles</item>
+        <item>Guadalupe</item>
+        <item>Guadalupe Victoria</item>
+        <item>Hermenegildo Galeana</item>
+        <item>Honey</item>
+        <item>Huaquechula</item>
+        <item>Huatlatlauca</item>
+        <item>Huauchinango</item>
+        <item>Huehuetla</item>
+        <item>Huehuetlán el Chico</item>
+        <item>Huehuetlán el Grande</item>
+        <item>Huejotzingo</item>
+        <item>Hueyapan</item>
+        <item>Hueytamalco</item>
+        <item>Hueytlalpan</item>
+        <item>Huitzilan de Serdán</item>
+        <item>Huitziltepec</item>
+        <item>Ixcamilpa de Guerrero</item>
+        <item>Ixcaquixtla</item>
+        <item>Ixtacamaxtitlán</item>
+        <item>Ixtepec</item>
+        <item>Izúcar de Matamoros</item>
+        <item>Jalpan</item>
+        <item>Jolalpan</item>
+        <item>Jonotla</item>
+        <item>Jopala</item>
+        <item>Juan C. Bonilla</item>
+        <item>Juan Galindo</item>
+        <item>Juan N. Méndez</item>
+        <item>La Magdalena Tlatlauquitepec</item>
+        <item>Lafragua</item>
+        <item>Libres</item>
+        <item>Los Reyes de Juárez</item>
+        <item>Mazapiltepec de Juárez</item>
+        <item>Mixtla</item>
+        <item>Molcaxac</item>
+        <item>Naupan</item>
+        <item>Nauzontla</item>
+        <item>Nealtican</item>
+        <item>Nicolás Bravo</item>
+        <item>Nopalucan</item>
+        <item>Ocotepec</item>
+        <item>Ocoyucan</item>
+        <item>Olintla</item>
+        <item>Oriental</item>
+        <item>Pahuatlán</item>
+        <item>Palmar de Bravo</item>
+        <item>Pantepec</item>
+        <item>Petlalcingo</item>
+        <item>Piaxtla</item>
+        <item>Puebla</item>
+        <item>Quecholac</item>
+        <item>Quimixtlán</item>
+        <item>Rafael Lara Grajales</item>
+        <item>San Andrés Cholula</item>
+        <item>San Antonio Cañada</item>
+        <item>San Diego la Mesa Tochimiltzingo</item>
+        <item>San Felipe Teotlalcingo</item>
+        <item>San Felipe Tepatlán</item>
+        <item>San Gabriel Chilac</item>
+        <item>San Gregorio Atzompa</item>
+        <item>San Jerónimo Tecuanipan</item>
+        <item>San Jerónimo Xayacatlán</item>
+        <item>San José Chiapa</item>
+        <item>San José Miahuatlán</item>
+        <item>San Juan Atenco</item>
+        <item>San Juan Atzompa</item>
+        <item>San Martín Texmelucan</item>
+        <item>San Martín Totoltepec</item>
+        <item>San Matías Tlalancaleca</item>
+        <item>San Miguel Ixitlán</item>
+        <item>San Miguel Xoxtla</item>
+        <item>San Nicolás Buenos Aires</item>
+        <item>San Nicolás de los Ranchos</item>
+        <item>San Pablo Anicano</item>
+        <item>San Pedro Cholula</item>
+        <item>San Pedro Yeloixtlahuaca</item>
+        <item>San Salvador el Seco</item>
+        <item>San Salvador el Verde</item>
+        <item>San Salvador Huixcolotla</item>
+        <item>San Sebastián Tlacotepec</item>
+        <item>Santa Catarina Tlaltempan</item>
+        <item>Santa Inés Ahuatempan</item>
+        <item>Santa Isabel Cholula</item>
+        <item>Santiago Miahuatlán</item>
+        <item>Santo Tomás Hueyotlipan</item>
+        <item>Soltepec</item>
+        <item>Tecali de Herrera</item>
+        <item>Tecamachalco</item>
+        <item>Tecomatlán</item>
+        <item>Tehuacán</item>
+        <item>Tehuitzingo</item>
+        <item>Tenampulco</item>
+        <item>Teopantlán</item>
+        <item>Teotlalco</item>
+        <item>Tepanco de López</item>
+        <item>Tepango de Rodríguez</item>
+        <item>Tepatlaxco de Hidalgo</item>
+        <item>Tepeaca</item>
+        <item>Tepemaxalco</item>
+        <item>Tepeojuma</item>
+        <item>Tepetzintla</item>
+        <item>Tepexco</item>
+        <item>Tepexi de Rodríguez</item>
+        <item>Tepeyahualco</item>
+        <item>Tepeyahualco de Cuauhtémoc</item>
+        <item>Tetela de Ocampo</item>
+        <item>Teteles de Avila Castillo</item>
+        <item>Teziutlán</item>
+        <item>Tianguismanalco</item>
+        <item>Tilapa</item>
+        <item>Tlachichuca</item>
+        <item>Tlacotepec de Benito Juárez</item>
+        <item>Tlacuilotepec</item>
+        <item>Tlahuapan</item>
+        <item>Tlaltenango</item>
+        <item>Tlanepantla</item>
+        <item>Tlaola</item>
+        <item>Tlapacoya</item>
+        <item>Tlapanalá</item>
+        <item>Tlatlauquitepec</item>
+        <item>Tlaxco</item>
+        <item>Tochimilco</item>
+        <item>Tochtepec</item>
+        <item>Totoltepec de Guerrero</item>
+        <item>Tulcingo</item>
+        <item>Tuzamapan de Galeana</item>
+        <item>Tzicatlacoyan</item>
+        <item>Venustiano Carranza</item>
+        <item>Vicente Guerrero</item>
+        <item>Xayacatlán de Bravo</item>
+        <item>Xicotepec</item>
+        <item>Xicotlán</item>
+        <item>Xiutetelco</item>
+        <item>Xochiapulco</item>
+        <item>Xochiltepec</item>
+        <item>Xochitlán de Vicente Suárez</item>
+        <item>Xochitlán Todos Santos</item>
+        <item>Yaonáhuac</item>
+        <item>Yehualtepec</item>
+        <item>Zacapala</item>
+        <item>Zacapoaxtla</item>
+        <item>Zacatlán</item>
+        <item>Zapotitlán</item>
+        <item>Zapotitlán de Méndez</item>
+        <item>Zaragoza</item>
+        <item>Zautla</item>
+        <item>Zihuateutla</item>
+        <item>Zinacatepec</item>
+        <item>Zongozotla</item>
+        <item>Zoquiapan</item>
+        <item>Zoquitlán</item>
 
-</string-array>
+    </string-array>
 
 
     <string-array name="municipios_arrays">
