@@ -26,4 +26,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.1.0'
     compile 'com.jakewharton:butterknife:8.2.1'//-------------------butterknife
     apt 'com.jakewharton:butterknife-compiler:8.2.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
+    compile 'commons-codec:commons-codec:1.3'
 }

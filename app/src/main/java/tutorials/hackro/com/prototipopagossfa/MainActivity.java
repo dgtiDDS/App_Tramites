@@ -149,14 +149,31 @@ public class MainActivity extends AppCompatActivity implements antecedentesView 
 
 
     public void aceptarDialog(View v) {
-        Toast.makeText(this, "dwedew", Toast.LENGTH_SHORT).show();
-        finish();
-        navigateToPayment();
+        //finish();
+
+        presenter.requestData(antecedentesCantidadLbl.getText().toString(),
+                antecedentesImporteLbl.getText().toString(),
+                String.valueOf(antecedentesTipoPersonaLbl.getSelectedItemPosition()),
+                antecedentesNombreLbl.getText().toString(),
+                antecedentesApellidoPaternoLbl.getText().toString(),
+                antecedentesApellidoMaternoLbl.getText().toString(),
+                antecedentesCurpLbl.getText().toString(),
+                antecedentesCalleLbl.getText().toString(),
+                antecedentesNumeroExteriorLbl.getText().toString(),
+                antecedentesNumeroInteriorLbl.getText().toString(),
+                antecedentesMunicipioLbl.getText().toString(),
+                antecedentesLocalidadLbl.getText().toString(),
+                antecedentesCpLbl.getText().toString(),
+                antecedentesColoniaLbl.getText().toString(),
+                antecedentesOtraColoniaLbl.getText().toString());
+        //consumir el web service y obtener los datos de la referencia
+
+
+        //navigateToPayment();
     }
 
 
     public void cancelarDialog(View v) {
-        Toast.makeText(this, "dwedew", Toast.LENGTH_SHORT).show();
         customDialog.hide();
     }
 
@@ -165,7 +182,7 @@ public class MainActivity extends AppCompatActivity implements antecedentesView 
 
     @Override
     public void showProgress() {
-        timeWait.show();
+            timeWait.show();
     }
 
     @Override
@@ -255,7 +272,13 @@ public class MainActivity extends AppCompatActivity implements antecedentesView 
     }
 
     @Override
+    public void showErrorTicket() {
+        Toast.makeText(this,getResources().getString(R.string.errorTicket),Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
     public void navigateToPayment() {
+        //finish();
         startActivity(new Intent(MainActivity.this, payment.class));
     }
 

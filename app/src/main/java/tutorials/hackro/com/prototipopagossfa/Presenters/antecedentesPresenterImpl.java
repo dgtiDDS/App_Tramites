@@ -22,10 +22,14 @@ public class antecedentesPresenterImpl implements antecedentesPresenter, anteced
 
     @Override
     public void validateFields(String cantidad, String importe, String tipoPersona, String nombre, String paterno, String materno, String curp, String calle, String exterior, String interior, String municipio, String localidad, String cp, String colonia, String otraColonia) {
-        if (view != null) {
-            view.showProgress();
+        try {
+            if (view != null) {
+                view.showProgress();
+            }
+            interactor.validateFields(cantidad, importe, tipoPersona, nombre, paterno, materno, curp, calle, exterior, interior, municipio, localidad, cp, colonia, otraColonia, this);
+        } catch (Exception e) {
+            failTicket();
         }
-        interactor.validateFields(cantidad, importe, tipoPersona, nombre, paterno, materno, curp, calle, exterior, interior, municipio, localidad, cp, colonia, otraColonia, this);
     }
 
     @Override
@@ -36,8 +40,17 @@ public class antecedentesPresenterImpl implements antecedentesPresenter, anteced
     }
 
     @Override
+    public void requestData(String cantidad, String importe, String tipoPersona, String nombre, String paterno, String materno, String curp, String calle, String exterior, String interior, String municipio, String localidad, String cp, String colonia, String otraColonia) {
+        try {
+            interactor.responseResponse(cantidad, importe, tipoPersona, nombre, paterno, materno, curp, calle, exterior, interior, municipio, localidad, cp, colonia, otraColonia, this);
+        } catch (Exception e) {
+            failTicket();
+        }
+    }
+
+    @Override
     public void setErrorAntecedentes_tipo_persona_lbl() {
-            view.hideProgress();
+        view.hideProgress();
         view.setErrorAntecedentes_tipo_persona_lbl();
     }
 
@@ -114,9 +127,24 @@ public class antecedentesPresenterImpl implements antecedentesPresenter, anteced
     }
 
     @Override
+    public void failTicket() {
+        view.hideProgress();
+        view.hideDialog();
+        view.showErrorTicket();
+    }
+
+    @Override
     public void onSucess() {
         view.hideProgress();
         view.showDialog();
     }
+
+    @Override
+    public void navigateToTicket() {
+        view.hideProgress();
+
+        view.navigateToPayment();
+    }
+
 
 }

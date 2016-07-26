@@ -24,6 +24,7 @@ public interface antecedentesView {
     void setErrorAntecedentes_colonia_lbl();
     void setErrorAntecedentes_otra_colonia_lbl();
     void setErrorAntecedentes_nombre();
+    void showErrorTicket();
 
 
     void navigateToPayment();

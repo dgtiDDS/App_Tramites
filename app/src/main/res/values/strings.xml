@@ -30,7 +30,7 @@
     <string name="ejemplo">Texto de ejemplo</string>
 
     <string name="campo_obligatorio">Campo obligatorio</string>
-
+    <string name="errorTicket">Error al generar la solicitud\nIntentelo mas tarde</string>
 
     <string-array name="tipoPersona">
         <item>Fisica</item>
